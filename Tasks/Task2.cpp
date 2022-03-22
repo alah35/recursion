@@ -11,5 +11,5 @@ void task2() {
     std::cout << "Enter the number of the step:";
     int n;
     std::cin >> n;
-    std::cout << "There are: " << jump_rabbit(n) << " ways";
+    std::cout << "There are: " << jump_rabbit(n) << " ways" << std::endl;
 }

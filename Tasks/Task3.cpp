@@ -19,5 +19,5 @@ void task3() {
     int k;
     std::cin >> k;
 
-    std::cout << jump_rabbit2(n, k);
+    std::cout << "There are: " << jump_rabbit2(n, k) << " ways" << std::endl;
 }
