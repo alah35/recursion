@@ -11,6 +11,9 @@ void get_amount_evnum(long long num, int &ans) {
 
 void task4() {
     int ans;
-    get_amount_evnum(9223372036854775806, ans);
+    long long n;
+    std::cout << "Enter a very long number:" << std::endl;
+    std::cin >> n;
+    get_amount_evnum(n, ans);
     std::cout << ans << std::endl;
 }
